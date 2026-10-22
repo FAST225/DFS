@@ -7,7 +7,8 @@ const taux_TVA = 18;
 const montant_Produits = prix_Unitaire * quantite;
 const montant_TVA = (montant_Produits * taux_TVA) / 100;
 const montant_TTC = montant_Produits + montant_TVA;
-const total_APayer = montant_TTC + frais_Livraison;
+const remise = 10000
+const total_APayer = (montant_TTC + frais_Livraison) - remise;
 const prix_MoyenTTC = montant_TTC / quantite;
 console.log("===== REÇU DE COMMANDE =====");
 console.log("Client :",nom_Client);
@@ -19,10 +20,10 @@ console.log("Montant des produits :", montant_Produits, "FCFA");
 console.log("TVA (",taux_TVA,"%) :" ,montant_TVA ,"FCFA");
 console.log("Montant TTC : ", montant_TTC ,"FCFA");
 console.log("Livraison :", frais_Livraison, "FCFA");
+console.log("Remise :", remise)
 console.log("TOTAL A PAYER :",total_APayer, "FCFA");
 console.log("");
 console.log("Prix moyen TTC par produit :",prix_MoyenTTC ,"FCFA");
 console.log("Type du nom :", typeof nom_Client);
-console.log("Type du produit :", typeof nom_Produit);
 console.log("Type du prix :", typeof prix_Unitaire);
 console.log("Type de la quantité :" ,typeof quantite);
