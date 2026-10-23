@@ -26,4 +26,4 @@ console.log("");
 console.log("Prix moyen TTC par produit :",prix_MoyenTTC ,"FCFA");
 console.log("Type du nom :", typeof nom_Client);
 console.log("Type du prix :", typeof prix_Unitaire);
-console.log("Type de la quantité :" ,typeof quantite);
+console.log("Type de la quantité :" ,typeof quantite); 
