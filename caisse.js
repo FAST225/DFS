@@ -6,3 +6,9 @@ const quantiteStylos = 3;
 const montantCahiers = prixCahier * quantiteCahiers;
 const montantStylos = prixStylo * quantiteStylos;
 const total = montantCahiers + montantStylos;
+let resultatBudget;
+if (total <= budget) {
+  resultatBudget = "Budget suffisant";
+} else {
+  resultatBudget = "Budget insuffisant";
+}
