@@ -18,6 +18,7 @@ console.log("Stylos : " + montantStylos + " FCFA");
 console.log("Total : " + total + " FCFA");
 console.log("Budget : " + budget + " FCFA");
 console.log(resultatBudget);
+console.log(" ")
 for (let i = 1; i <= 5; i++) {
   console.log("Achat numéro " + i);
 }
