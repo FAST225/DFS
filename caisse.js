@@ -1,5 +1,5 @@
 const budget = 20000;        
-const prixCahier = 1500;       
+const prixCahier = 15000       
 const quantiteCahiers = 4;     
 const prixStylo = 500;         
 const quantiteStylos = 3;      
