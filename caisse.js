@@ -12,3 +12,9 @@ if (total <= budget) {
 } else {
   resultatBudget = "Budget insuffisant";
 }
+console.log("===== CAISSE =====");
+console.log("Cahiers : " + montantCahiers + " FCFA");
+console.log("Stylos : " + montantStylos + " FCFA");
+console.log("Total : " + total + " FCFA");
+console.log("Budget : " + budget + " FCFA");
+console.log(resultatBudget);
